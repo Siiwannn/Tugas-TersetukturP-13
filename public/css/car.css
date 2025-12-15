@@ -1,0 +1,95 @@
+/* ====== PRODUCT PAGE STYLE ====== */
+
+/* Background & heading */
+body {
+    background-color: #fff;
+}
+
+h2 {
+    color: #2c3e50;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Car Card */
+.car-card {
+    border: none;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+}
+
+.car-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+/* Gambar */
+.car-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Isi Card */
+.car-card .card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+/* Nama produk */
+.card-title {
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 8px;
+}
+
+/* Harga */
+.price {
+    color: #f9c300;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Tombol */
+.btn-modern {
+    background: #dc3545;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 25px;
+    transition: all 0.3s;
+    text-align: center;
+    border: none;
+    padding: 8px;
+}
+
+.btn-modern:hover {
+    background: #000;
+    color: #fff;
+}
+
+/* Pagination */
+.pagination-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.page-link {
+    color: #000;
+    border-radius: 8px;
+}
+
+.page-item.active .page-link {
+    background-color: #f9c300;
+    border-color: #f9c300;
+    color: #000;
+}

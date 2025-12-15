@@ -1,0 +1,52 @@
+.car-detail {
+    color: #000;
+}
+
+.detail-card-bg {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.car-detail img {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.car-detail h2 {
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+.car-detail p {
+    color: #222; /* hitam keabu-abuan agar tetap terbaca */
+    font-size: 1.05rem;
+}
+
+.car-detail .text-muted {
+    color: #444 !important; /* ubah biar lebih jelas */
+}
+
+.btn-back-modern {
+    border-radius: 50px;
+    font-weight: 600;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease;
+    padding: 10px 25px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-back-modern:hover {
+    background-color: #000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+    color: #fff;
+}
